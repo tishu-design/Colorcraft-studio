@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+input, select {
+  width: 80%;
+  margin: 10px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+}
+
+.preview {
+  position: relative;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.preview img {
+  width: 100%;
+}
+
+#designText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-size: 40px;
+}
